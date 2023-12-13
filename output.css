@@ -556,22 +556,6 @@ video {
   top: 0px;
 }
 
-.right-10 {
-  right: 2.5rem;
-}
-
-.right-2 {
-  right: 0.5rem;
-}
-
-.left-4 {
-  left: 1rem;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -596,28 +580,16 @@ video {
   height: 100vh;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
 .w-20 {
   width: 5rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-8 {
   width: 2rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-screen {
@@ -635,26 +607,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.grid-rows-\[30rem\2c 1fr\2c 5rem\] {
-  grid-template-rows: 30rem 1fr 5rem;
-}
-
-.grid-rows-\[40rem\2c 1fr\2c 5rem\] {
-  grid-template-rows: 40rem 1fr 5rem;
-}
-
-.grid-rows-\[25rem\2c 1fr\2c 5rem\] {
-  grid-template-rows: 25rem 1fr 5rem;
-}
-
-.grid-rows-\[25rem\2c 1fr\2c 10rem\] {
-  grid-template-rows: 25rem 1fr 10rem;
-}
-
-.grid-rows-\[25rem\2c 1fr\2c 1rem\] {
-  grid-template-rows: 25rem 1fr 1rem;
 }
 
 .grid-rows-\[25rem\2c 1fr\2c 0rem\] {
@@ -717,7 +669,7 @@ video {
 }
 
 .bg-hero-pattern {
-  background-image: url('/src/images/pattern-bg-desktop.png');
+  background-image: url('/images/pattern-bg-desktop.png');
 }
 
 .bg-cover {
@@ -762,12 +714,12 @@ video {
   font-size: 1.563rem;
 }
 
-.text-base {
-  font-size: 1rem;
-}
-
 .text-4xl {
   font-size: 2.441rem;
+}
+
+.text-base {
+  font-size: 1rem;
 }
 
 .font-medium {
